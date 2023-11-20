@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour
 {
+    public GameManager gameManager;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +23,7 @@ public class Ball : MonoBehaviour
         if(collision.gameObject.tag == "Win Plane")
         {
             //win the game
+            gameManager.GameWin();
         }
     }
 }
