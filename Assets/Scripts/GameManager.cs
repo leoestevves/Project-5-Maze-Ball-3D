@@ -6,18 +6,20 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public float timeLeft;
+    [SerializeField] float timeLeft;
 
-    bool gameOver = false;
+    //bool gameOver = false;
     bool win = false;
 
-    public GameObject winText;
-    public GameObject gameOverText;
-    public GameObject ball;
+    [SerializeField] GameObject winText;
+    [SerializeField] GameObject gameOverText;
+    [SerializeField] GameObject ball;
 
-    public PlayerController playerController;
+    [SerializeField] PlayerController playerController;
 
-    public TextMeshProUGUI timerText;
+    [SerializeField] TextMeshProUGUI timerText;
+
+    [SerializeField] GameObject winPlane;
 
 
 
@@ -54,7 +56,8 @@ public class GameManager : MonoBehaviour
     {
         gameOverText.SetActive(true);
         playerController.enabled = false;
-        gameOver = true;
+        //gameOver = true;
+        winPlane.SetActive(false);
     }
 
     public void Restart()

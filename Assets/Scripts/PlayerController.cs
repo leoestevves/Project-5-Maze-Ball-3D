@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float rotateSpeed;
-    public float maxRotation;
+    [SerializeField] float rotateSpeed;
+    [SerializeField] float maxRotation;
 
     float mouseX, mouseY;
 

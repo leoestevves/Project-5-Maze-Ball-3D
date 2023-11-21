@@ -2547,8 +2547,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279899761
-  m_fontColor: {r: 0.4433962, g: 0.085751146, b: 0.10039955, a: 1}
+    rgba: 4278224639
+  m_fontColor: {r: 1, g: 0.5254902, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2650,6 +2650,7 @@ MonoBehaviour:
   ball: {fileID: 708555351}
   playerController: {fileID: 419626925}
   timerText: {fileID: 1662836298}
+  winPlane: {fileID: 1971427410}
 --- !u!4 &1429727863
 Transform:
   m_ObjectHideFlags: 0
@@ -3177,7 +3178,7 @@ Transform:
   m_GameObject: {fileID: 1971427410}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.76, z: 0}
+  m_LocalPosition: {x: 0, y: -2.86, z: 0}
   m_LocalScale: {x: 2, y: 1, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
